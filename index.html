@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090a09">
+  <meta name="description" content="Krish Mahaseth — Computer Science and Engineering undergraduate interested in machine learning, data science, and software development.">
+  <title>Krish Mahaseth — Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/portfolio-data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap container">
+      <a class="brand" href="#home" aria-label="Go to homepage"><span data-name>Krish Mahaseth</span><i></i></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a><a href="#projects">Projects</a><a href="#skills">Technologies</a><a href="#experience" data-optional-link="experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span><span data-status>Open to internships</span></p>
+        <h1><span class="hello">Hi, I'm</span><br><span data-name>Krish Mahaseth</span><span class="green-dot">.</span></h1>
+        <p class="hero-role" data-role>Software Developer · Problem Solver · Lifelong Learner</p>
+        <p class="hero-quote" data-tagline>Interested in practical machine learning, data science, and software development that solves real problems.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">View my work <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="#contact">Contact me</a><a class="resume-link" data-resume href="assets/resume.pdf" target="_blank" rel="noopener">Résumé ↓</a></div>
+        <div class="social-links" id="hero-social" aria-label="Social links"></div>
+      </div>
+      <div class="hero-visual" role="img" aria-label="Abstract dark coding workspace visual">
+        <div class="visual-glow"></div><div class="code-window"><div class="window-top"><span></span><span></span><span></span><b>~/your-next-project</b></div><div class="code-content" aria-hidden="true">
+          <p><span class="ln">01</span><span class="purple">const</span> <span class="blue">developer</span> = {</p>
+          <p><span class="ln">02</span>&nbsp;&nbsp;name: <span class="orange">"Krish Mahaseth"</span>,</p>
+          <p><span class="ln">03</span>&nbsp;&nbsp;mindset: <span class="orange">"keep learning"</span>,</p>
+          <p><span class="ln">04</span>&nbsp;&nbsp;build: <span class="green">(idea) =&gt; solution</span>,</p>
+          <p><span class="ln">05</span>&nbsp;&nbsp;quality: <span class="orange">"not optional"</span></p>
+          <p><span class="ln">06</span>};</p><br>
+          <p><span class="ln">08</span><span class="purple">function</span> <span class="blue">makeItMatter</span>() {</p>
+          <p><span class="ln">09</span>&nbsp;&nbsp;<span class="purple">return</span> <span class="green">impact</span> + <span class="green">curiosity</span>;</p>
+          <p><span class="ln">10</span>}</p><br>
+          <p class="code-comment"><span class="ln">12</span>// good work speaks for itself</p>
+          <p><span class="ln">13</span><span class="cursor">▍</span></p>
+        </div></div>
+        <div class="visual-caption"><span class="caption-mark">✳</span><span>Curiosity in. Solutions out.</span><span class="caption-line"></span></div>
+      </div>
+      <a class="scroll-cue" href="#projects"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><div><p class="section-kicker">01 / SELECTED WORK</p><h2>Things I've <span class="muted">built.</span></h2></div><p class="section-intro">A few projects that show how I think, build, and solve problems.</p></div>
+      <div class="project-grid" id="project-grid"></div>
+    </section>
+
+    <section class="section section-bordered" id="skills"><div class="container">
+      <div class="section-heading"><div><p class="section-kicker">02 / MY TOOLKIT</p><h2>Technologies & <span class="muted">skills.</span></h2></div><p class="section-intro">Tools I use to turn ideas into useful, reliable work.</p></div>
+      <div class="skills-layout"><div class="skills-copy"><p>Good tools matter. Knowing when and how to use them matters more. These are the technologies I can back up with hands-on work.</p><p class="tiny-note">Only list skills you can comfortably discuss in an interview.</p></div><div class="skill-groups" id="skill-groups"></div></div>
+    </div></section>
+
+    <section class="section container" id="about"><div class="about-layout"><div><p class="section-kicker">03 / A LITTLE ABOUT ME</p><h2>More than just <span class="muted">the code.</span></h2></div><div class="about-content"><p class="about-lead" data-about>I'm a curious builder who enjoys breaking down complex problems, learning continuously, and creating work that is useful to real people.</p><p class="about-extra" data-about-extra>Outside of writing code, I value clear communication, thoughtful collaboration, and getting a little better with every project.</p><div class="about-facts" id="about-facts"></div></div></div></section>
+
+    <section class="section section-bordered" id="experience" data-optional-section="experience"><div class="container">
+      <div class="section-heading"><div><p class="section-kicker">04 / THE JOURNEY</p><h2>Experience & <span class="muted">highlights.</span></h2></div><p class="section-intro">A few milestones, roles, and experiences along the way.</p></div>
+      <div class="timeline" id="experience-list"></div>
+    </div></section>
+
+    <section class="section container" id="testimonials" data-optional-section="testimonials"><div class="section-heading"><div><p class="section-kicker">05 / KIND WORDS</p><h2>People I've <span class="muted">worked with.</span></h2></div><p class="section-intro">Genuine words from people who know my work.</p></div><div class="testimonial-grid" id="testimonial-grid"></div></section>
+
+    <section class="contact-section" id="contact"><div class="container contact-inner"><p class="section-kicker">06 / YOUR NEXT MOVE</p><h2>Have something<br>good in <span class="green-text">mind?</span></h2><p class="contact-copy">I'm always happy to talk about interesting work, thoughtful ideas, and opportunities to make a difference.</p><a class="button button-primary contact-button" data-email-button href="mailto:your.email@example.com">Let's talk <span aria-hidden="true">↗</span></a><div class="contact-meta" id="contact-meta"></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span data-name>Krish Mahaseth</span><i></i></a><p>Designed with intention. Built with care.</p><p>© <span id="year"></span> <span data-name>Krish Mahaseth</span></p></div></footer>
+</body>
+</html>
