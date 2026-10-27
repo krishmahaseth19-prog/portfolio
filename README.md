@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Krish Mahaseth — Portfolio starter
 
 A responsive, single-page dark portfolio built with plain HTML, CSS, and JavaScript. The starter content is prefilled from Krish Mahaseth's CV; update it before publishing. No framework, build step, backend, or external dependency is required.
@@ -43,3 +44,7 @@ Official guide: https://docs.github.com/en/pages
 ## License
 
 MIT. See `LICENSE`.
+=======
+# portfolio
+My portfolio website
+>>>>>>> 15a7e97dc3121461c8afb118d56f4c392c6e0833
