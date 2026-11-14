@@ -1,50 +1,38 @@
-<<<<<<< HEAD
-# Krish Mahaseth — Portfolio starter
+# Krish Mahaseth — Portfolio
 
-A responsive, single-page dark portfolio built with plain HTML, CSS, and JavaScript. The starter content is prefilled from Krish Mahaseth's CV; update it before publishing. No framework, build step, backend, or external dependency is required.
+A responsive, single-page portfolio built with HTML, CSS, and JavaScript.
 
-## Quick start
+## Run locally
 
 1. Open this folder in VS Code.
-2. Open `index.html` in a browser, or use the Live Server extension for a local preview.
-3. Edit `js/portfolio-data.js` to update the name, headline, about text, contact details, projects, skills, and experience.
-4. Replace `assets/resume.pdf` with the final résumé PDF you want visitors to download.
-5. Add real GitHub and LinkedIn URLs in `socials` when available. Add repository/demo URLs to each project when ready.
+2. Open `index.html` in a browser, or use the Live Server extension.
+3. Update `js/portfolio-data.js` to edit the profile, links, projects, skills, and experience.
+4. Replace `assets/resume.pdf` with the résumé you want to make public.
 
-## Personalize it
+## Featured project
 
-- `name`, `role`, `status`, `tagline`: hero content and browser title.
-- `about`, `aboutExtra`, `facts`: about section.
-- `socials`: links shown below the hero. Use `mailto:you@example.com` for email; leave unavailable profile URLs blank.
-- `projects`: add/remove project objects. The details disclosure uses Problem, My role, and Result.
-- `skills`: skill groups and technologies.
-- `experience`: entries reveal the Experience section. Remove entries or set the array to `[]` to hide it.
-- `testimonials`: add genuine quotes with permission. Leave as `[]` to hide the section.
-- `email`, `phone`, `location`, `resume`: contact information and résumé file.
+**House Price Prediction** — an end-to-end machine-learning application using an Extra Trees Regressor, FastAPI, and Streamlit. The current 300-estimator model evaluation is MAE **$77,106.38**, RMSE **$119,584.35**, and R² **0.7114**.
 
-Only publish details you want to make public. Use genuine results and add project evidence/metrics only when you can verify them.
+- [GitHub repository](https://github.com/krishmahaseth19-prog/HousePricePrediction)
+- [Live Streamlit dashboard](https://house-price-prediction-krishma.streamlit.app/)
+- [FastAPI documentation](https://house-price-prediction-api-2q84.onrender.com/docs)
 
-## Deploy to GitHub Pages
+## Deploy with GitHub Pages
 
-1. Create a GitHub repository and push these files to its root.
-2. Open repository **Settings → Pages**.
-3. Under build and deployment, choose **Deploy from a branch**, select your default branch and `/ (root)`, then save.
-4. Wait for the Pages URL to appear in Settings → Pages.
+1. Push the portfolio files to a GitHub repository.
+2. Open **Settings → Pages**.
+3. Choose **Deploy from a branch**, select the deployment branch and `/ (root)`, then save.
+4. Wait for the published URL in the Pages settings.
 
 Official guide: https://docs.github.com/en/pages
 
 ## Before publishing
 
-- [ ] Verify all contact details and add real profile links.
-- [ ] Confirm the résumé PDF is the intended public version.
-- [ ] Add the GitHub link and measured model results for the House Price Prediction project if available.
-- [ ] Remove any experience or skill that is no longer accurate.
-- [ ] Test the site on mobile and verify every link.
+- Verify all contact details and social links.
+- Confirm that the résumé PDF is the intended public version.
+- Check project metrics and links.
+- Test the site on desktop and mobile.
 
 ## License
 
 MIT. See `LICENSE`.
-=======
-# portfolio
-My portfolio website
->>>>>>> 15a7e97dc3121461c8afb118d56f4c392c6e0833

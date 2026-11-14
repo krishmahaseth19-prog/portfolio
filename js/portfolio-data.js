@@ -17,18 +17,18 @@ const portfolioData = {
   location: "NIT Durgapur · India",
   resume: "assets/resume.pdf",
   socials: [
-    { label: "GitHub", url: "", icon: "github" },
-    { label: "LinkedIn", url: "", icon: "linkedin" },
+    { label: "GitHub", url: "https://github.com/krishmahaseth19-prog", icon: "github" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/krish-mahaseth", icon: "linkedin" },
     { label: "Email", url: "mailto:krishmahaseth19@gmail.com", icon: "email" }
   ],
   projects: [
     {
       number: "01", title: "House Price Prediction", category: "MACHINE LEARNING",
-      description: "An end-to-end house-price prediction system built with Python and Scikit-learn, using a Random Forest Regressor.",
-      problem: "Build a machine-learning workflow that prepares housing data and predicts house prices.",
-      role: "Performed exploratory data analysis, engineered date-based features, handled missing values and outliers, and encoded categorical variables. Built preprocessing and training into a Scikit-learn Pipeline and ColumnTransformer.",
-      result: "Evaluated the model using MAE, RMSE, and R-squared. The trained model was serialized with Pickle and Joblib for reuse and potential deployment. Add measured scores and a repository link here when ready.",
-      stack: ["Python", "Pandas", "NumPy", "Scikit-learn", "Random Forest"], github: "", demo: "", featured: true
+      description: "An end-to-end house-price prediction application built with Python and Scikit-learn. It uses an Extra Trees Regressor and provides a live Streamlit dashboard backed by a FastAPI prediction service.",
+      problem: "Build an end-to-end machine-learning workflow that prepares housing data, estimates residential property prices, and makes predictions accessible through a web interface and REST API.",
+      role: "Performed data cleaning and preprocessing, engineered date-based features, handled missing values and IQR-based outliers, and encoded categorical variables. Built a Scikit-learn Pipeline with an Extra Trees Regressor, exposed predictions through FastAPI, and developed an interactive Streamlit dashboard with Plotly visualizations.",
+      result: "Evaluated the 300-estimator Extra Trees model on the held-out test set: MAE $77,106.38; MSE 14,300,417,704.77; RMSE $119,584.35; R² 0.7114. Saved the trained model with Pickle and Joblib, hosted the model artifact on Hugging Face, and deployed the FastAPI backend and Streamlit dashboard.",
+      stack: ["Python", "Pandas", "NumPy", "Scikit-learn", "Extra Trees Regressor", "FastAPI", "Streamlit", "Plotly", "Hugging Face"], github: "https://github.com/krishmahaseth19-prog/HousePricePrediction", demo: "https://house-price-prediction-krishma.streamlit.app/", api: "https://house-price-prediction-api-2q84.onrender.com/docs", featured: true
     }
   ],
   skills: [
