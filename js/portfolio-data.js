@@ -24,18 +24,29 @@ const portfolioData = {
   projects: [
     {
       number: "01", title: "House Price Prediction", category: "MACHINE LEARNING",
-      description: "An end-to-end house-price prediction application built with Python and Scikit-learn. It uses an Extra Trees Regressor and provides a live Streamlit dashboard backed by a FastAPI prediction service.",
+      description: "An end-to-end house price prediction application built with Python and Scikit-learn. It uses a 300-estimator Extra Trees Regressor, a FastAPI REST API with interactive Swagger UI documentation, and a Streamlit dashboard for live predictions and model evaluation.",
       problem: "Build an end-to-end machine-learning workflow that prepares housing data, estimates residential property prices, and makes predictions accessible through a web interface and REST API.",
-      role: "Performed data cleaning and preprocessing, engineered date-based features, handled missing values and IQR-based outliers, and encoded categorical variables. Built a Scikit-learn Pipeline with an Extra Trees Regressor, exposed predictions through FastAPI, and developed an interactive Streamlit dashboard with Plotly visualizations.",
-      result: "Evaluated the 300-estimator Extra Trees model on the held-out test set: MAE $77,106.38; MSE 14,300,417,704.77; RMSE $119,584.35; R² 0.7114. Saved the trained model with Pickle and Joblib, hosted the model artifact on Hugging Face, and deployed the FastAPI backend and Streamlit dashboard.",
+      role: "Handled data cleaning, preprocessing, date-based feature engineering, missing-value imputation, IQR-based outlier handling, and categorical encoding. Built a Scikit-learn Pipeline with an Extra Trees Regressor, developed a FastAPI REST endpoint for JSON-based predictions, and created an interactive Streamlit dashboard with Plotly visualizations. Published interactive endpoint documentation through Swagger UI.",
+      result: "On the held-out test set, the 300-estimator Extra Trees model achieved MAE $77,106.38, MSE 14,300,417,704.77, RMSE $119,584.35, and R² 0.7114. Saved the model with Pickle and Joblib, hosted the model artifact on Hugging Face, deployed the FastAPI backend on Render, and deployed the Streamlit dashboard. The API exposes /predict and /health endpoints, with interactive Swagger documentation.",
       stack: ["Python", "Pandas", "NumPy", "Scikit-learn", "Extra Trees Regressor", "FastAPI", "Streamlit", "Plotly", "Hugging Face"], github: "https://github.com/krishmahaseth19-prog/HousePricePrediction", demo: "https://house-price-prediction-krishma.streamlit.app/", api: "https://house-price-prediction-api-2q84.onrender.com/docs", featured: true
+    },
+    {
+      number: "02", title: "Multi-Service Mobile App UI/UX Design", category: "UI/UX DESIGN",
+      description: "A Figma mobile-app interface concept that brings digital payments, utility and bill payments, and travel services together in one organized dashboard.",
+      problem: "Explore how a user can access several everyday digital services from a single mobile interface without making the home screen feel cluttered.",
+      role: "Created a mobile dashboard wireframe in Figma with grouped service areas, a login/register header, payment shortcuts, utility-payment options, travel and ticketing categories, and bottom navigation.",
+      result: "Produced a mobile UI concept covering digital payments (Load Money, Send Money, Bank Transfer, and Remittance), utility services (Top-up & Data, Electricity, Water/Khanepani, Internet, Government Payment, Traffic Fine Payment, and Health), and travel services (Airlines, International Airlines, Hotels, and Bus Tickets).",
+      stack: ["Figma", "UI/UX Design", "Mobile App Design", "Wireframing"],
+      figma: "https://www.figma.com/design/wsvzEFHNQMaESJZN0F08GK/Untitled?node-id=1-9",
+      featured: false
     }
   ],
   skills: [
     { group: "Programming", items: ["Python", "C++", "C"] },
     { group: "Data & Machine Learning", items: ["Pandas", "NumPy", "Scikit-learn", "EDA", "Data preprocessing", "Feature engineering", "Regression", "Model evaluation"] },
     { group: "Deep Learning", items: ["PyTorch", "TensorFlow", "CNNs", "RNNs", "LSTMs", "Transformers", "BERT"] },
-    { group: "Tools & Other Areas", items: ["Git", "GitHub", "Figma", "Jira", "UI/UX", "Network security", "Two-factor authentication"] }
+    { group: "Design", items: ["Figma", "UI/UX Design", "Mobile App Design", "Wireframing"] },
+    { group: "Tools & Other Areas", items: ["Git", "GitHub", "Jira", "Network security", "Two-factor authentication"] }
   ],
   facts: [
     { label: "Education", value: "B.Tech. CSE · NIT Durgapur" },

@@ -11,11 +11,11 @@ A responsive, single-page portfolio built with HTML, CSS, and JavaScript.
 
 ## Featured project
 
-**House Price Prediction** — an end-to-end machine-learning application using an Extra Trees Regressor, FastAPI, and Streamlit. The current 300-estimator model evaluation is MAE **$77,106.38**, RMSE **$119,584.35**, and R² **0.7114**.
+**House Price Prediction** — an end-to-end machine-learning application using an Extra Trees Regressor, FastAPI, and Streamlit. The current 300-estimator model evaluation is MAE **$77,106.38**, RMSE **$119,584.35**, and R² **0.7114**. The deployed FastAPI service provides JSON-based predictions and interactive endpoint documentation through Swagger UI.
 
 - [GitHub repository](https://github.com/krishmahaseth19-prog/HousePricePrediction)
 - [Live Streamlit dashboard](https://house-price-prediction-krishma.streamlit.app/)
-- [FastAPI documentation](https://house-price-prediction-api-2q84.onrender.com/docs)
+- [FastAPI Swagger UI documentation](https://house-price-prediction-api-2q84.onrender.com/docs)
 
 ## Deploy with GitHub Pages
 
@@ -36,3 +36,10 @@ Official guide: https://docs.github.com/en/pages
 ## License
 
 MIT. See `LICENSE`.
+
+
+## Additional project
+
+**Multi-Service Mobile App UI/UX Design** — a Figma mobile interface concept combining digital payments, utility and bill payments, and travel services in one dashboard.
+
+- [View the Figma design](https://www.figma.com/design/wsvzEFHNQMaESJZN0F08GK/Untitled?node-id=1-9)

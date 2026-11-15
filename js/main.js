@@ -38,7 +38,7 @@ function renderPortfolio() {
       <h3>${p.title}</h3><p class="project-description">${p.description || ''}</p>
       <details class="project-details"><summary>How I approached it</summary><dl><dt>Problem</dt><dd>${p.problem || 'Add the problem you solved.'}</dd><dt>My role</dt><dd>${p.role || 'Describe your contribution.'}</dd><dt>Result</dt><dd>${p.result || 'Share the outcome or evidence.'}</dd></dl></details>
       <div class="tag-list">${(p.stack || []).map(t => `<span>${t}</span>`).join('')}</div>
-      <div class="project-links">${link('Source code '+icon('arrow'), p.github)}${link('Live demo '+icon('arrow'), p.demo)}${link('API docs '+icon('arrow'), p.api)}</div>
+      <div class="project-links">${link('Source code '+icon('arrow'), p.github)}${link('Live demo '+icon('arrow'), p.demo)}${link('Swagger API docs '+icon('arrow'), p.api)}${link('View Figma design '+icon('arrow'), p.figma)}</div>
     </article>`).join('');
   $('#skill-groups').innerHTML = (d.skills || []).filter(g => g.items?.length).map(g => `<div class="skill-group"><h3>${g.group}</h3><div class="tag-list">${g.items.map(s => `<span>${s}</span>`).join('')}</div></div>`).join('');
   $('#about-facts').innerHTML = (d.facts || []).map(f => `<div class="fact"><span>${f.label}</span><strong>${f.value}</strong></div>`).join('');
